@@ -92,3 +92,39 @@ a:focus-visible{
   h2{ margin-top: 30px; }
   .block > div{ margin: 12px 0; }
 }
+
+
+/* ROSTER HISTORY */
+
+body.teams {
+  max-width: 750px;
+  margin: 60px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.teams h1 {
+  font-size: 38px;
+  margin: 0 0 6px;
+  letter-spacing: .5px;
+}
+
+.teams h2 {
+  margin-top: 40px;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.teams a {
+  opacity: 0.8;
+}
+
+.teams .muted {
+  opacity: 0.6;
+}
+
+.teams .block {
+  margin-top: 8px;
+}
+
