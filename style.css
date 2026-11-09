@@ -10,7 +10,8 @@
 
 *{ box-sizing:border-box; }
 
-html, body { height: 100%; }
+html, body { min-height: 100%; }
+html { background: var(--bg); }
 
 body{
   background: var(--bg);
@@ -93,38 +94,23 @@ a:focus-visible{
   .block > div{ margin: 12px 0; }
 }
 
-
-/* ROSTER HISTORY */
-
-body.teams {
-  max-width: 750px;
-  margin: 60px auto;
-  padding: 0 20px;
-  line-height: 1.6;
-  font-size: 16px;
-}
-
+/* ROSTER HISTORY: estilos solo para el contenido */
 .teams h1 {
-  font-size: 38px;
-  margin: 0 0 6px;
+  font-size: clamp(28px, 6.2vw, 38px);
+  margin: 12px 0 6px;
   letter-spacing: .5px;
 }
 
 .teams h2 {
   margin-top: 40px;
   font-size: 16px;
-  opacity: 0.8;
-}
-
-.teams a {
-  opacity: 0.8;
+  opacity: .8;
 }
 
 .teams .muted {
-  opacity: 0.6;
+  opacity: .8;
 }
 
 .teams .block {
   margin-top: 8px;
 }
-
